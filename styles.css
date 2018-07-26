@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+}
+
+*, 
+*:before, 
+*:after {
+  box-sizing: inherit;
+}
+
+html, 
+body, 
+p {
+  margin: 0; 
+  padding: 0;
+}
+
+body {
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 18px;
+  color: white;
+  padding: 0.25rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  padding: 0 0 0 0.75rem;
+  display: table-row;
+}
+
+ul li:before {
+  display: table-cell;
+  text-align: right;
+  padding-right: 0.6rem;
+  content: "🍄";
+  margin-left: -1.5rem;
+  width: 1.5rem;
+}
+
+a {
+  color: inherit;
+}
+
+main {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background: pink;
+  padding: 0.5rem;
+  min-width: 33rem;
+}
+
+video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
+}
