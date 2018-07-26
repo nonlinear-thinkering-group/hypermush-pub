@@ -1,0 +1,7 @@
+title: hypermush tavern
+----
+view: main
+----
+text:
+
+![](/content/p2p-cats.png)
