@@ -1,4 +1,4 @@
-hypermush tavern
+hypermush pub
 ================
 
-dat webring of hypermush dungeons
+where the hypermush webring of dungeons starts
